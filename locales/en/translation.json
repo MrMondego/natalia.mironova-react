@@ -1,0 +1,26 @@
+{
+    "natali": "Natalia Mironova",
+    "about": "artist teacher designer",
+    "link": {
+        "home": "Home",
+        "news": "News",
+        "gallery": "Gallery",
+        "shop": "Shop",
+        "school": "School of painting",
+        "write": "Write a letter",
+        "contacts": "Contacts"
+    },
+    "button": {
+        "home": "Back to home"
+    },
+    "category": {
+        "flowers": "Flowers",
+        "animals": "Animals and birds",
+        "landscape": "Landscape",
+        "still-life": "Still-life",
+        "portrait": "Portrait",
+        "quick-portrait": "Quick portrait",
+        "dzen": "Dzen",
+        "architecture": "Architecture"
+    }
+}
