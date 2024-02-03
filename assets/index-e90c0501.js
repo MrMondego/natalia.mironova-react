@@ -482,7 +482,7 @@ Error generating stack: `+a.message+`
             object-position: 64%;
         }
     }
-`,fE=()=>{const[e,t]=R.useState(0),n=R.useRef(null);return R.useEffect(()=>(n.current=window.setInterval(()=>{t(r=>r+1>2?0:r+1)},6e3),()=>{n.current&&window.clearInterval(n.current)}),[]),_.jsxs(dE,{className:"bgWrapper",children:[_.jsx(nf,{src:Tt.bkImage1,alt:"background",className:`bgWrapper__bg ${e==0?"active":null} bgFirst`}),_.jsx(nf,{src:Tt.bkImage2,alt:"background",className:`bgWrapper__bg ${e==1?"active":null} bgSecond`}),_.jsx(nf,{src:Tt.bkImage3,alt:"background",className:`bgWrapper__bg ${e==2?"active":null} bgWrapper__bg_shift`})]})},pE=W.div`
+`,fE=()=>{const[e,t]=R.useState(0),n=R.useRef(null);return R.useEffect(()=>(n.current=window.setInterval(()=>{t(r=>r+1>2?0:r+1)},6e3),()=>{n.current&&window.clearInterval(n.current)}),[]),_.jsxs(dE,{className:"bgWrapper",children:[_.jsx(nf,{src:Tt.bkImage1,alt:"background",className:`bgWrapper__bg ${e==0?"active":null} bgFirst`}),_.jsx(nf,{src:Tt.bkImage2,alt:"background",className:`bgWrapper__bg ${e==1?"active":null} bgSecond`}),_.jsx(nf,{src:Tt.bkImage3,alt:"background",className:`bgWrapper__bg ${e==2?"active":null} bgWrapper__bg_shift`})]})},pE=W.section`
     min-height: 95vh;
     color: #fff;
 `,hE=W.div`
@@ -953,7 +953,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     &:not(:last-of-type) {
         /* margin-bottom: 30px; */
     }
-`,ad=W.a`
+`,ad=W.a.attrs(()=>({target:"_blank"}))`
     width: 35px;
     display: inline-block;
     cursor: pointer;
@@ -1025,7 +1025,7 @@ width: 100%;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-`,mO=W.div`
+`,mO=W.section`
     margin-block: 50px;
     display: flex;
     flex-wrap: wrap;
