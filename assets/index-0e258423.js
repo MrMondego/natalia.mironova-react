@@ -1212,7 +1212,6 @@ width: 100%;
     font-size: 14pt;
     padding-block: 0.5rem;
 `,M8=U.ul`
-    list-style-type: '-';
     font-size: 14pt;
     padding-left: 1rem;
 `,N8=U.h1`
